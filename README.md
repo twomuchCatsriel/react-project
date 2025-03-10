@@ -5,4 +5,4 @@ My goal with this project will be to make a simple quiz-app which picks a random
 
 This project was started on March 7th 2025, and the projected end-date is the 17th of March.
 
-I love food
+HELLO WORLD grgkkg
