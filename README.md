@@ -6,3 +6,7 @@ My goal with this project will be to make a simple quiz-app which picks a random
 This project was started on March 7th 2025, and the projected end-date is the 17th of March.
 
 HELLO WORLD grgkkg
+
+
+# IMPORTANT // HOW TO USE 
+Files to edit are located inside src :)

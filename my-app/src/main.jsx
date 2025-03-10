@@ -2,12 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createRoot } from "react-dom/client";
 
-function app(){
+import OpeningText from "./components";
+
+function App()
+{
     return (
-        <h1>test</h1>
+        <OpeningText/>
     )
 }
 
-const container = document.getElementById("app");
+
+const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(app);
+
+root.render(<App/>)
