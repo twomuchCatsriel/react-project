@@ -9,6 +9,19 @@ import PageTop from "./pageTop";
 import QuestionField from "./questionTitle";
 import OptionButton from "./optionButton";
 
+// Questions
+const questions = [
+    {
+        question: "When was JavaScript created",
+        answerRight: "The 4th of December, 1995",
+        answerLeft: "The 12th September, 2001"
+    },
+    {
+        question: "When was REACT created?",
+        answerRight: "The 29th of May 2013",
+        answerLeft: "The 17th of May 2013"
+    }
+]
 
 function App()
 {
