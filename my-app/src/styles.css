@@ -16,3 +16,10 @@ body{
     color: white;
     margin-top: 0;
 }
+
+#buttonsDiv button{
+    width: 20%;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}

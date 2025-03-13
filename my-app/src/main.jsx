@@ -7,6 +7,7 @@ import "./styles.css";
 // Components
 import PageTop from "./pageTop";
 import QuestionField from "./questionTitle";
+import OptionButton from "./optionButton";
 
 
 function App()
@@ -15,6 +16,11 @@ function App()
         <div>
             <PageTop/>
             <QuestionField/>
+
+            <div id="buttonsDiv">
+                <OptionButton value="byee"/>
+                <OptionButton value="hiii"/>
+            </div>
         </div>
     )
 }
