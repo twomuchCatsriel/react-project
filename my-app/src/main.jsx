@@ -28,7 +28,7 @@ function App()
     return (
         <div>
             <PageTop/>
-            <QuestionField/>
+            <QuestionField question="x"/>
 
             <div id="buttonsDiv">
                 <OptionButton value="byee"/>

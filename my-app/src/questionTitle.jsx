@@ -1,8 +1,8 @@
 import React from "react";
 
-function QuestionField(){
+function QuestionField(props){
     return (
-        <h1 id="questField" className="center">Question goes here</h1>
+        <h1 id="questField" className="center">{props.question}</h1>
     )
 }
 
