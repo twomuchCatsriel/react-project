@@ -14,7 +14,7 @@ const questions = [
     {
         question: "When was JavaScript created",
         answerRight: "The 4th of December, 1995",
-        answerLeft: "The 12th September, 2000"
+        answerLeft: "The 12th September, 2001"
     },
     {
         question: "When was REACT created?",
@@ -23,12 +23,21 @@ const questions = [
     }
 ]
 
+function chooseQuestion(){
+    let chooseQuestion = Math.floor(Math.random() * questions.length);
+
+    return chooseQuestion
+}
+
+let currentQuestion = chooseQuestion();
+let questionString = questions[currentQuestion];
+
 function App()
 {
     return (
         <div>
             <PageTop/>
-            <QuestionField question="x"/>
+            <QuestionField/>
 
             <div id="buttonsDiv">
                 <OptionButton value="byee"/>
