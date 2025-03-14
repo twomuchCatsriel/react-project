@@ -14,7 +14,7 @@ const questions = [
     {
         question: "When was JavaScript created",
         answerRight: "The 4th of December, 1995",
-        answerLeft: "The 12th September, 2001"
+        answerLeft: "The 12th September, 2000"
     },
     {
         question: "When was REACT created?",
@@ -32,7 +32,7 @@ function App()
 
             <div id="buttonsDiv">
                 <OptionButton value="byee"/>
-                <OptionButton value="hiii"/>
+                <OptionButton value="Cryy"/>
             </div>
         </div>
     )

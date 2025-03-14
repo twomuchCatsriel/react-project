@@ -1,7 +1,7 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #ECDCBF;
-    color: black;
+    background-color: #260b33;
+    color: #ffea00;
     margin: 0;
     padding: 0;
 }
@@ -11,9 +11,9 @@ body{
 }
 
 #headerText{
-    background-color: #A31D1D;
+    background-color: #ffea00;
     padding: 10px;
-    color: white;
+    color: #260b33;
     margin-top: 0;
 }
 
