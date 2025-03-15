@@ -23,25 +23,46 @@ const questions = [
     }
 ]
 
+// Functions
 function chooseQuestion(){
-    let chooseQuestion = Math.floor(Math.random() * questions.length);
+    let pick = Math.floor(Math.random() * questions.length);
 
-    return chooseQuestion
+    return pick
 }
 
+// Global Variables 
 let currentQuestion = chooseQuestion();
-let questionString = questions[currentQuestion];
+let questionString = questions[currentQuestion].questionString;
+let option1String;
+let option2String;
 
+// Other Functions
+function setQuestions(){
+    let pickStart = Math.floor(Math.random() * 2);
+    
+    questionString = questions[currentQuestion].question
+    if(pickStart === 0){
+        option1String = questions[currentQuestion].answerLeft
+        option2String = questions[currentQuestion].answerRight
+    } else{
+        option1String = questions[currentQuestion].answerRight
+        option2String = questions[currentQuestion].answerLeft
+    }
+}
+
+
+// React Stuff
 function App()
 {
     return (
         <div>
             <PageTop/>
-            <QuestionField/>
+            <QuestionField question={questionString = questions[currentQuestion].question}/>
 
             <div id="buttonsDiv">
-                <OptionButton value="byee"/>
-                <OptionButton value="Cryy"/>
+                {setQuestions()}
+                <OptionButton value={option1String}/>
+                <OptionButton value={option2String}/>
             </div>
         </div>
     )
