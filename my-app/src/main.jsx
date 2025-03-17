@@ -1,6 +1,6 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { createRoot } from "react-dom/client";
+import REACT, { useState } from "react";
 
 import "./styles.css";
 
@@ -61,8 +61,8 @@ function App()
 
             <div id="buttonsDiv">
                 {setQuestions()}
-                <OptionButton value={option1String}/>
-                <OptionButton value={option2String}/>
+                <OptionButton value={option1String} correct={questions[currentQuestion].answerRight}/>
+                <OptionButton value={option2String} correct={questions[currentQuestion].answerRight}/>
             </div>
         </div>
     )
