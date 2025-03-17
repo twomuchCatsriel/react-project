@@ -63,8 +63,8 @@ function App()
 
             <div id="buttonsDiv">
                 {setQuestions()}
-                <OptionButton value={option1String}/>
-                <OptionButton value={option2String}/>
+                <OptionButton value={option1String} correct={questions[currentQuestion].answerRight}/>
+                <OptionButton value={option2String} correct={questions[currentQuestion].answerRight}/>
                 <Yippie/>
             </div>
         </div>
