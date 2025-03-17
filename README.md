@@ -14,4 +14,5 @@ Files to edit are located inside src :)
 # INFORMATION 
 This project was created by:
 Dan Andreo (@catsrieldreemurr and @TwoMuchCatsriel)
+
 Mori (@MementoM0Rl)
