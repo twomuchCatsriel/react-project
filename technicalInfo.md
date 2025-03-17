@@ -28,7 +28,9 @@ At the very bottom of the page is the main code that renders everything. Everyth
 the **OptionButton** component through props. These are important, and is how the code checks if the player chose the right option or not. 
 
 **Prop explanations**
+
 value - Sets the text of the button. This is the options for the question.
+
 correct - The correct answer , which is always placed in the "answerRight" field of the object. This is the string that **OptionButton** compares against.
 
 # Extras
