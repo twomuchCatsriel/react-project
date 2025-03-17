@@ -1,5 +1,8 @@
 import React from "react";
 
+// variables
+const ToHide = document.getElementById("ToHide");
+
 function OptionButton(props){
     function clickHandler(){
         if(props.correct === props.value){ // Mark as correct 
@@ -7,6 +10,8 @@ function OptionButton(props){
         } else{ // Mark as Incorrect
             console.log("wrong"); 
         }
+    
+        ToHide.style.display = "none";
         
     }
 
