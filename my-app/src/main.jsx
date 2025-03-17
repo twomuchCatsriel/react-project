@@ -8,6 +8,7 @@ import "./styles.css";
 import PageTop from "./pageTop";
 import QuestionField from "./questionTitle";
 import OptionButton from "./optionButton";
+import Yippie from "./img";
 
 // Questions
 const questions = [
@@ -63,6 +64,7 @@ function App()
                 {setQuestions()}
                 <OptionButton value={option1String}/>
                 <OptionButton value={option2String}/>
+                <Yippie/>
             </div>
         </div>
     )
