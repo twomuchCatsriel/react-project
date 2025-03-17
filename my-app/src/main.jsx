@@ -22,7 +22,75 @@ const questions = [
         question: "When was REACT created?",
         answerRight: "The 29th of May 2013",
         answerLeft: "The 17th of May 2013"
+    },
+    {
+        question: "When was C# created?",
+        answerRight: "In July of 2000",
+        answerLeft: "In August of 1997"
+    },
+    {
+        question: "What year was Python first released?",
+        answerRight: "1991",
+        answerLeft: "1989"
+    },
+    {
+        question: "Which programming language was designed by Dennis Ritchie?",
+        answerRight: "C",
+        answerLeft: "C++"
+    },
+    {
+        question: "Which language is known as the 'mother of all languages'?",
+        answerRight: "C",
+        answerLeft: "Assembly"
+    },
+    {
+        question: "When was PHP released?",
+        answerRight: "1995",
+        answerLeft: "1998"
+    },
+    {
+        question: "Who created Ruby?",
+        answerRight: "Yukihiro Matsumoto",
+        answerLeft: "James Gosling"
+    },
+    {
+        question: "Which language is primarily used for iOS development?",
+        answerRight: "Swift",
+        answerLeft: "Java"
+    },
+    {        
+        question: "What is a popular programming language for Android development?",
+        answerRight: "Kotlin",
+        answerLeft: "Swift"
+    },    
+    {
+        question: "Which programming language runs in the JVM?",
+        answerRight: "Java",
+        answerLeft: "C"
+    },
+    {
+        question: "What was the first high-level programming language?",
+        answerRight: "Fortran",
+        answerLeft: "COBOL"
+    },
+    {
+        question: "Which language is commonly used for AI and machine learning?",
+        answerRight: "Python",
+        answerLeft: "C++"
+    },
+    {
+        question: "What does 'CSS' stand for?",
+        answerRight: "Cascading Style Sheets",
+        answerLeft: "Computer Styling System"
+    },
+    {
+        question: "Which language is mainly used for web development?",
+        answerRight: "JavaScript",
+        answerLeft: "Python"
     }
+
+    // thanks ChatGPT for most of the questions. Only the initial 3 are written by me <3
+    
 ]
 
 // Functions
@@ -55,9 +123,9 @@ function setQuestions(){
 
 // React Stuff
 function App()
-{
+{   
     return (
-        <div>
+        <div id="questionsPage">
             <PageTop/>
             <QuestionField question={questionString = questions[currentQuestion].question}/>
 
