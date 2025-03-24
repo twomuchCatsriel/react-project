@@ -13,7 +13,7 @@ Files to edit are located inside src :)
 
 The only known way to run this is through the Vite Development server. (I think? I could be wrong.)
 
-To use the Vite Development server, install vite through Node.js and the run: **npm run dev**
+To use the Vite Development server, install vite through Node.js and the run: **npm run dev** on the my-app folder.
 
 # INFORMATION 
 This project was created by:
